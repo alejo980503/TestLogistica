@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: "/logistics/test"
+spring:
+  mvc:
+    dispatch-options-request: true
+  application:
+    name: "transportLogistics"
+  devtools:
+    add-properties: false
+  profiles:
+    include: null
+  datasource:
+    username: "postgres"
+    password: "miluteamo123"
+    driverClassName: "org.postgresql.Driver"
+  jpa:
+    databasePlatform: "org.hibernate.dialect.PostgreSQLDialect"
